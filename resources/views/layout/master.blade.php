@@ -17,14 +17,14 @@
     <link href="{{asset('libs/tobii/css/tobii.min.css')}}" rel="stylesheet">
 
     <!-- Bootstrap Css -->
-    <link href="{{asset('css/bootstrap.min.css')}}" id="bootstrap-style" class="theme-opt" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/bootstrap.css')}}" id="bootstrap-style" class="theme-opt" rel="stylesheet" type="text/css" />
 
     <!-- Icons Css -->
     <link href="{{asset('css/icons.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('libs/@iconscout/unicons/css/line.css')}}" type="text/css" rel="stylesheet" />
 
     <!-- Style Css-->
-    <link href="{{asset('css/style.min.css')}}" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css" />        
+    <link href="{{asset('css/style.css')}}" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css" />        
 </head>
 
 <body>

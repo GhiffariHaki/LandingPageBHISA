@@ -2,7 +2,7 @@
 <header id="topnav" class="defaultscroll sticky">
     <div class="container">
         <!-- Logo Container-->
-        <a class="logo" href="index.html">
+        <a class="logo" href="javascript:void(0)">
             <span class="logo-light-mode">
                 <img src="{{asset('images/logo/logo-dark.png')}}" class="l-dark" height="24" alt="">
                 <img src="{{asset('images/logo/logo-white.png')}}" class="l-light" height="24" alt="">
@@ -45,23 +45,10 @@
 
         <div id="navigation">
             <!-- Navigation Menu-->   
-            <ul class="navigation-menu nav-light">
-                <li><a href="index.html" class="sub-menu-item">Home</a></li>
-                <li class="has-submenu parent-parent-menu-item">
-                    <a href="javascript:void(0)">Products</a></span>
-                </li>
-
-                <li class="has-submenu parent-parent-menu-item">
-                    <a href="javascript:void(0)">Customers</a></span>
-                </li>
-
-                <li class="has-submenu parent-parent-menu-item">
-                    <a href="javascript:void(0)">Support</a></span>
-                </li>
-
-                <li class="has-submenu parent-parent-menu-item">
-                    <a href="javascript:void(0)">Company</a></span>
-                </li>
+            <ul class="navigation-menu nav-light justify-content-left">
+                <li><a href="/" class="sub-menu-item">Home</a></li>
+                <li class="sub-menu-item"><a href="/pricing">Pricing</a></li>
+                <li class="sub-menu-item"><a href="/company">Company</a></li>
             </ul>
             <!-- End Navigation Menu-->
         </div>
