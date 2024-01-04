@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Armada</title>
+    <title>Armada Nusantara</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{asset('images/armadaicon.ico')}}"/>
+    <link rel="shortcut icon" href="{{asset('images/LogoArsa-Icon.ico')}}"/>
 
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>

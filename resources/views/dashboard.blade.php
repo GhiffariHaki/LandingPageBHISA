@@ -8,14 +8,14 @@
         <div class="row justify-content-center">
             <div class="col-lg-12 text-center mt-0 mt-md-5 pt-0 pt-md-5">
                 <div class="title-heading margin-top-100">
-                    <h1 class="heading text-white title-dark mb-3">A Better Way to Manage your Schedule</h1>
-                    <p class="para-desc mx-auto text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                    <h1 class="heading text-white title-dark mb-3">Drive down Expenses, Drive up Profits</h1>
+                    <p class="mx-auto text-white-50">Revolutionize your vehicle management for maximum profitability.</p>
                 </div>
 
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
                         <div class="home-dashboard">
-                            <img src="{{asset('images/home/laptop.png')}}" alt="" class="img-fluid">
+                            <img src="{{asset('images/home/hero.png')}}" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -31,14 +31,14 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="saas-feature-shape-right position-relative">
-                    <img src="{{asset('images/API.png')}}" class="img-fluid mx-auto d-block rounded shadow" alt="">
+                    <img src="{{asset('images/home/Intro.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-5 mt-4 pt-2 mt-lg-0 pt-lg-0">
                 <div class="section-title ms-lg-4">
-                    <h1 class="title mb-3">Armada will help with all your Management Requirement</h1>
-                    <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                    <h1 class="title mb-3">We take good care of your vehicle.</h1>
+                    <p class="para-desc text-muted">Embark on a journey of efficiency and profitability with Armada Nusantara – Where Your Fleet's Success Begins!</p>
                     <div>
                                 <a href="javascript:void(0)" class="btn btn-dark">Request Demo</a>
                                 <a href="javascript:void(0)" class="btn btn-outline-dark">Free Trial</a>
@@ -59,25 +59,24 @@
             <div class="col-lg-5 order-2 order-lg-1 mt-4 pt-2 mt-lg-0 pt-lg-0">
                 <div class="section-title me-lg-4">
                     <h1 class="title mb-3">Why Choose us ?</h1>
-                    <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
-                        
+
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex align-items-center pt-4">
-                                <h2><i data-feather="shield" class="fea icon-m-md text-primary"></i></h2>
+                                <h2><i data-feather="user-check" class="fea icon-m-md text-dark"></i></h2>
                                 <div class="ms-3">
                                     <h5>User Friendly</h5>
-                                    <p class="text-muted mb-0">Moreover, in Latin only words at the beginning of sentences are capitalized.</p>
+                                    <p class="text-muted mb-0">Armada Nusantara the perfect choice for users of all levels</p>
                                 </div>
                             </div>
                         </div><!--end col-->
     
                         <div class="col-12">
                             <div class="d-flex align-items-center pt-4">
-                                <h2><i data-feather="cpu" class="fea icon-m-md text-primary"></i></h2>
+                                <h2><i data-feather="cpu" class="fea icon-m-md text-dark"></i></h2>
                                 <div class="ms-3">
-                                    <h5>Easy to Integrate with API</h5>
-                                    <p class="text-muted mb-0">If the fill text is intended to illustrate the characteristics of sometimes.</p>
+                                    <h5>Easy to Integrate</h5>
+                                    <p class="text-muted mb-0">Armada Nusantara offers effortless integration with your API.</p>
                                 </div>
                             </div>
                         </div><!--end col-->
@@ -87,7 +86,7 @@
 
             <div class="col-lg-7 order-1 order-lg-2">
                 <div class="saas-feature-shape-left position-relative">
-                            <img src="{{asset('images/API.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
+                            <img src="{{asset('images/home/API_Black.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
                 </div>
             </div>
             <!--end col-->
@@ -104,7 +103,7 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="section-title text-center mb-4 pb-2">
-                    <h4 class="title mb-4">Discover what makes <span class="text-primary">Task manager</span> great.</h4>
+                    <h4 class="title mb-4">Discover what makes <span style="color:#fca311;">Armada Nusantara</span> great.</h4>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
@@ -192,7 +191,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="sliders" class="fea icon-ex-md"></i>
+                        <i data-feather="sliders" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Planning</h4>
@@ -203,7 +202,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="calendar" class="fea icon-ex-md"></i>
+                        <i data-feather="calendar" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Scheduling</h4>
@@ -214,7 +213,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="briefcase" class="fea icon-ex-md"></i>
+                        <i data-feather="briefcase" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Asset Management</h4>
@@ -225,7 +224,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="list" class="fea icon-ex-md"></i>
+                        <i data-feather="list" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Work Order Management</h4>
@@ -237,7 +236,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="package" class="fea icon-ex-md"></i>
+                        <i data-feather="package" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Inventory Management</h4>
@@ -248,7 +247,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="pie-chart" class="fea icon-ex-md"></i>
+                        <i data-feather="pie-chart" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Analysis</h4>
@@ -260,7 +259,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="thumbs-up" class="fea icon-ex-md"></i>
+                        <i data-feather="thumbs-up" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Reporting</h4>
@@ -271,7 +270,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="clipboard" class="fea icon-ex-md"></i>
+                        <i data-feather="clipboard" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Agreement</h4>
@@ -282,7 +281,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="dollar-sign" class="fea icon-ex-md"></i>
+                        <i data-feather="dollar-sign" class="fea icon-ex-md text-dark"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Point of Sales</h4>
@@ -301,7 +300,7 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
-                    <h4 class="title mb-4">Whats Our Clients Said About <span class="text-primary">Armada Nusantara</span></h4>
+                    <h4 class="title mb-4">Whats Our Clients Said About <span style="color:#fca311;">Armada Nusantara</span></h4>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
