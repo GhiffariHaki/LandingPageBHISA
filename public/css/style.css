@@ -5,9 +5,9 @@
    Version: 4.3.0
    File Description: Main Css file of the template
 */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   overflow-x: hidden !important;
   font-size: 1rem;
   color: #212529;
@@ -3614,8 +3614,6 @@ p {
   width: 70%;
   height: 100%;
   background: rgba(255, 255, 255, 0.85);
-  -webkit-clip-path: polygon(0 0, 90% 0, 70% 100%, 0% 100%);
-          clip-path: polygon(0 0, 90% 0, 70% 100%, 0% 100%);
 }
 @media (max-width: 767px) {
   .bg-animation-left:after {
@@ -3633,11 +3631,10 @@ p {
   -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
 }
-.bg-animation-left.task-management-home:after {
-  background: url("../images/task/bg.png") #2f55d4;
+.bg-animation-left.bg-hero:after {
+  background: url("../images/home/hero-background.png") #000000;
   width: 100%;
-  -webkit-clip-path: circle(65% at 40% 25%);
-          clip-path: circle(65% at 40% 25%);
+  -webkit-clip-path: ellipse(1080px 980px at 50% 10%);
 }
 
 .bg-invoice {

@@ -2,37 +2,30 @@
 @section('content')
 
 
-<!-- Hero Start -->
-<section class="bg-half-170 pb-0 bg-primary d-table w-100" style="background: url({{asset('images/bg2.png')}}) center center;">
-    <!-- Start Container-->    
-    <div class="container">
-        <!-- Start Row-->
-        <div class="row align-items-center">
-            <!-- Start Col Left-->
-            <div class="col-lg-7 col-md-6">
-                <div class="title-heading mb-md-5 pb-md-5">
-                    <h1 class="heading text-white mb-3 title-dark" style="font-family:Lato; font-weight:2000; font: size 120px;;"> We Took Good <br> Care of Your <br> Management </h4>
-                    <p class="para-desc text-white-50">Armada will help with all your Management Requirement.</p>
+<!-- Start Home -->
+<section class="bg-home d-flex align-items-center bg-animation-left bg-hero" style="height: auto;" id="home">
+    <div class="container position-relative" style="z-index: 1;">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 text-center mt-0 mt-md-5 pt-0 pt-md-5">
+                <div class="title-heading margin-top-100">
+                    <h1 class="heading text-white title-dark mb-3">A Better Way to Manage your Schedule</h1>
+                    <p class="para-desc mx-auto text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
                 </div>
-            </div>
-            <!-- End Col Left-->
 
-            <!-- Start Col Right-->
-            <div class="col-lg-5 col-md-6">
-                <img src="{{asset('images/hero1.png')}}" class="img-fluid" alt="">
-            </div>
-            <!-- End Col Right-->
-        </div>
-        <!-- End Row-->
-    </div> 
-    <!-- End Container-->
-</section>
-<!-- End Section-->
-<!-- Hero End -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <div class="home-dashboard">
+                            <img src="{{asset('images/home/laptop.png')}}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End Home -->
 
-
-
-<!-- Example Start -->
+<!-- Intro Start -->
 <section class="section">
     <div class="container pb-5 mb-md-5 mt-100 mt-60">
         <div class="row align-items-center">
@@ -46,16 +39,20 @@
                 <div class="section-title ms-lg-4">
                     <h1 class="title mb-3">Armada will help with all your Management Requirement</h1>
                     <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                    <div>
+                                <a href="javascript:void(0)" class="btn btn-dark">Request Demo</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-dark">Free Trial</a>
+                    </div>
                 </div>
             </div>
         </div><!--end col-->
     </div><!--end row-->
 </section>
-<!-- Example End -->
+<!-- Intro End -->
 
 
 
-<!-- API Start -->
+<!-- Why Us Start -->
 <section class="section">
     <div class="container mt-100 mt-60">
         <div class="row align-items-center">
@@ -69,7 +66,7 @@
                             <div class="d-flex align-items-center pt-4">
                                 <h2><i data-feather="shield" class="fea icon-m-md text-primary"></i></h2>
                                 <div class="ms-3">
-                                    <h5>Easy to Integrate with API</h5>
+                                    <h5>User Friendly</h5>
                                     <p class="text-muted mb-0">Moreover, in Latin only words at the beginning of sentences are capitalized.</p>
                                 </div>
                             </div>
@@ -79,7 +76,7 @@
                             <div class="d-flex align-items-center pt-4">
                                 <h2><i data-feather="cpu" class="fea icon-m-md text-primary"></i></h2>
                                 <div class="ms-3">
-                                    <h5>Best Performance</h5>
+                                    <h5>Easy to Integrate with API</h5>
                                     <p class="text-muted mb-0">If the fill text is intended to illustrate the characteristics of sometimes.</p>
                                 </div>
                             </div>
@@ -99,168 +96,83 @@
     </div>
     <!--end container-->
 </section>
-<!-- API End -->
+<!-- Why Us End -->
 
-
-
-<!-- Product Section -->
+<!-- Example Start -->
 <section class="section">
-    <div class="container">
-        <!-- Start Row -->
+    <div class="container mt-100 mt-60">
         <div class="row justify-content-center">
-            <!-- Start Col -->
-            <div class="col-12 text-center">
-                <div class="section-title mb-4 pb-2">
-                    <h1 class="title mb-4" style="font-family:Lato; font-weight:2000; font-size:3rem;">What we do?</h4>
-                    <p class="text-muted para-desc mb-0 mx-auto">Learn what Armada products can do for you.</p>
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h4 class="title mb-4">Discover what makes <span class="text-primary">Task manager</span> great.</h4>
                 </div>
-            </div>
-            <!-- End Col -->
-        </div>
-        <!-- End Row-->
+            </div><!--end col-->
+        </div><!--end row-->
 
-        <!-- Start Row -->
-        <div class="row">
-            <!-- Start Col Widget 1 -->
-            <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                <div class="card features feature-primary feature-full-bg rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
-                    <span class="h1 icon-color">
-                        <i class="uil uil-calendar-alt"></i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <h5>Planning & Scheduling</h5>
-                        <p class="para text-muted mb-0">It is a long established fact that a reader.</p>
-                    </div>
-                    <span class="big-icon text-center">
-                        <i class="uil uil-calendar-alt"></i>
-                    </span>
-                </div>
-            </div>
-            <!-- End Col Widget 1-->
-                    
-            <!-- Start Col Widget 2 -->
-            <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                <div class="card features feature-primary feature-full-bg rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
-                    <span class="h1 icon-color">
-                        <i class="uil uil-suitcase"></i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <h5>Asset Management</h5>
-                        <p class="para text-muted mb-0">It is a long established fact that a reader.</p>
-                    </div>
-                    <span class="big-icon text-center">
-                        <i class="uil uil-suitcase"></i>
-                    </span>
-                </div>
-            </div>
-            <!-- End Col Widget 2-->
-                    
-            <!-- Start Col Widget 3 -->
-            <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                <div class="card features feature-primary feature-full-bg rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
-                    <span class="h1 icon-color">
-                        <i class="uil uil-receipt-alt"></i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <h5>Work Order</h5>
-                        <p class="para text-muted mb-0">It is a long established fact that a reader.</p>
-                    </div>
-                    <span class="big-icon text-center">
-                        <i class="uil uil-receipt-alt"></i>
-                    </span>
-                </div>
-            </div>
-            <!-- End Col Widget 3-->
-                    
-            <!-- Start Col Widget 4 -->
-            <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                <div class="card features feature-primary feature-full-bg rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
-                    <span class="h1 icon-color">
-                        <i class="uil uil-box"></i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <h5>Inventory Management</h5>
-                        <p class="para text-muted mb-0">It is a long established fact that a reader.</p>
-                    </div>
-                    <span class="big-icon text-center">
-                        <i class="uil uil-box"></i>
-                    </span>
-                </div>
-            </div>
-            <!-- End Col Widget 4-->
-                    
-            <!-- Start Col Widget 5 -->
-            <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                <div class="card features feature-primary feature-full-bg rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
-                    <span class="h1 icon-color">
-                        <i class="uil uil-chart-line"></i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <h5>Analysis & Reporting</h5>
-                        <p class="para text-muted mb-0">It is a long established fact that a reader.</p>
-                    </div>
-                    <span class="big-icon text-center">
-                        <i class="uil uil-chart-line"></i>
-                    </span>
-                </div>
-            </div>
-            <!-- End Col Widget 5-->
-                    
-            <!-- Start Col Widget 6 -->
-            <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                <div class="card features feature-primary feature-full-bg rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
-                    <span class="h1 icon-color">
-                        <i class="uil uil-file-contract"></i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <h5>Agreement</h5>
-                        <p class="para text-muted mb-0">It is a long established fact that a reader.</p>
-                    </div>
-                    <span class="big-icon text-center">
-                        <i class="uil uil-file-contract"></i>
-                    </span>
-                </div>
-            </div>
-            <!-- End Col Widget 6-->
-                    
-            <!-- Start Col Widget 7 -->
-            <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                <div class="card features feature-primary feature-full-bg rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
-                    <span class="h1 icon-color">
-                        <i class="uil uil-wrench"></i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <h5>Sparepart Marketplace</h5>
-                        <p class="para text-muted mb-0">It is a long established fact that a reader.</p>
-                    </div>
-                    <span class="big-icon text-center">
-                        <i class="uil uil-wrench"></i>
-                    </span>
-                </div>
-            </div>
-            <!-- End Col Widget 7-->
-                    
-            <!-- Start Col Widget 8-->
-            <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                <div class="card features feature-primary feature-full-bg rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
-                    <span class="h1 icon-color">
-                        <i class="uil uil-usd-circle"></i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <h5>Commercial Hub</h5>
-                        <p class="para text-muted mb-0">It is a long established fact that a reader.</p>
-                    </div>
-                    <span class="big-icon text-center">
-                        <i class="uil uil-usd-circle"></i>
-                    </span>
-                </div>
-            </div>
-            <!-- End Col Widget 8-->
+        <div class="row align-items-center">
+            <div class="col-md-5 mt-4 pt-2">
+                <ul class="nav nav-pills nav-justified flex-column mb-0" id="pills-tab" role="tablist">
+                    <li class="nav-item bg-light rounded-md">
+                        <a class="nav-link rounded-md active" id="dashboard" data-bs-toggle="pill" href="#dash-board" role="tab" aria-controls="dash-board" aria-selected="false">
+                            <div class="p-3 text-start">
+                                <h5 class="title">Fleet Management</h5>
+                                <p class="text-muted tab-para mb-0">Dummy text is text that is used in the publishing industry or by web designers.</p>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                            
+                    <li class="nav-item bg-light rounded-md mt-4">
+                        <a class="nav-link rounded-md" id="timeline" data-bs-toggle="pill" href="#time-line" role="tab" aria-controls="time-line" aria-selected="false">
+                            <div class="p-3 text-start">
+                                <h5 class="title">Workshop Management</h5>
+                                <p class="text-muted tab-para mb-0">Dummy text is text that is used in the publishing industry or by web designers.</p>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                            
+                    <li class="nav-item bg-light rounded-md mt-4">
+                        <a class="nav-link rounded-md" id="paymentmanagement" data-bs-toggle="pill" href="#payment-management" role="tab" aria-controls="payment-management" aria-selected="false">
+                            <div class="p-3 text-start">
+                                <h5 class="title">Payment Management</h5>
+                                <p class="text-muted tab-para mb-0">Dummy text is text that is used in the publishing industry or by web designers.</p>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                            
+                    <li class="nav-item bg-light rounded-md mt-4">
+                        <a class="nav-link rounded-md" id="fileintegrate" data-bs-toggle="pill" href="#file-integrate" role="tab" aria-controls="file-integrate" aria-selected="false">
+                            <div class="p-3 text-start">
+                                <h5 class="title">File Integrate</h5>
+                                <p class="text-muted tab-para mb-0">Dummy text is text that is used in the publishing industry or by web designers.</p>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                </ul><!--end nav pills-->
+            </div><!--end col-->
+
+            <div class="col-md-7 col-12 mt-4 pt-2">
+                <div class="tab-content ms-lg-4" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="dash-board" role="tabpanel" aria-labelledby="dashboard">
+                        <img src="{{asset('images/home/FleetManagement.png')}}" class="img-fluid mx-auto rounded-md shadow-lg d-block" alt="">
+                    </div><!--end teb pane-->
+                            
+                    <div class="tab-pane fade" id="time-line" role="tabpanel" aria-labelledby="timeline">
+                        <img src="{{asset('images/home/WorkshopManagement.png')}}" class="img-fluid mx-auto rounded-md shadow-lg d-block" alt="">
+                    </div><!--end teb pane-->
+
+                    <div class="tab-pane fade" id="payment-management" role="tabpanel" aria-labelledby="paymentmanagement">
+                        <img src="assets/images/task/task.png" class="img-fluid mx-auto rounded-md shadow-lg d-block" alt="">
+                    </div><!--end teb pane-->
+
+                    <div class="tab-pane fade" id="file-integrate" role="tabpanel" aria-labelledby="fileintegrate">
+                        <img src="assets/images/task/file.png" class="img-fluid mx-auto rounded-md shadow-lg d-block" alt="">
+                    </div><!--end teb pane-->
+                </div><!--end tab content-->
+            </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
 </section>
-<!-- End Section-->
-<!-- Product End -->
+<!-- End Example -->
 
 <!-- Key Features Start -->
 <section class="section">
@@ -269,7 +181,6 @@
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
                     <h4 class="title mb-4">Key Features</h4>
-                    <p class="text-muted para-desc mx-auto mb-0">Learn what Armada products can do for you.</p>
                 </div>
             </div>
             <!--end col-->
@@ -390,7 +301,7 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
-                    <h4 class="title mb-4">Whats Our Clients Said About <span class="text-primary">Landrick</span> Project</h4>
+                    <h4 class="title mb-4">Whats Our Clients Said About <span class="text-primary">Armada Nusantara</span></h4>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
