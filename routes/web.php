@@ -39,6 +39,17 @@ Route::get('/product/pricing', function () {
     return view('products.pricing');
 });
 
+//Authenticate Pages
+Route::get('/login', function () {
+    return view('auth.login');
+});
+Route::get('/register', function () {
+    return view('auth.register');
+});
+Route::get('/forgotpassword', function () {
+    return view('auth.forgotpassword');
+});
+
 //Company Pages
 Route::get('/company', function () {
     return view('company.company');

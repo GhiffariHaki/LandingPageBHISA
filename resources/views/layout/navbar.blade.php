@@ -13,14 +13,14 @@
         <!--Login button Start-->
         <ul class="buy-button list-inline mb-0">
             <li class="list-inline-item mb-0">
-                <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <a href="/login" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <div class="login-btn-primary"><span class="btn btn-pills btn-dark">Sign In</span></div>
                     <div class="login-btn-light"><span class="btn btn-pills btn-dark">Sign In</span></div>
                 </a>
             </li>
             
             <li class="list-inline-item ps-1 mb-0">
-                <a href="#" target="_blank">
+                <a href="/login">
                     <div class="login-btn-primary"><span class="btn btn-pills btn-light">Try It Free</span></div>
                     <div class="login-btn-light"><span class="btn btn-pills btn-light">Try It Free</span></div>
                 </a>
