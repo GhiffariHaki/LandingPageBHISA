@@ -33,12 +33,12 @@
             <ul class="navigation-menu nav-light justify-content-left">
                 <li><a href="/">Home</a></li>
                 <li class="has-submenu parent-parent-menu-item">
-                    <a href="javascript:void(0)">Products</a><span class="menu-arrow"></span>
+                    <a href="/product">Products</a><span class="menu-arrow"></span>
                     <ul class="submenu">
-                        <li><a href="javascript:void(0)" class="sub-menu-item">Workshop Management</a></li>
-                        <li><a href="/inventory" class="sub-menu-item">Inventory Management</a></li>
-                        <li><a href="javascript:void(0)" class="sub-menu-item">Maintenance Management</a></li>
-                        <li><a href="/pricing" class="sub-menu-item">Pricing</a></li>
+                        <li><a href="/product/workshop" class="sub-menu-item">Workshop Management</a></li>
+                        <li><a href="/product/inventory" class="sub-menu-item">Inventory Management</a></li>
+                        <li><a href="/product/maintenance" class="sub-menu-item">Maintenance Management</a></li>
+                        <li><a href="/product/pricing" class="sub-menu-item">Pricing</a></li>
                     </ul>
                 </li>
                 <li class="has-submenu parent-parent-menu-item">

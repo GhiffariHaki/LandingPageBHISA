@@ -87,7 +87,7 @@
 
             <div class="col-lg-7 order-1 order-lg-2">
                 <div class="saas-feature-shape-left position-relative">
-                            <img src="{{asset('images/home/API_Black.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
+                    <img src="{{asset('images/home/API_Black.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
                 </div>
             </div>
             <!--end col-->

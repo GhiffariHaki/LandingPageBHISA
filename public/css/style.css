@@ -5559,6 +5559,10 @@ p {
   margin-top: 100px;
 }
 
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .text-slider {
   margin: 0 auto;
   position: relative;
@@ -6276,5 +6280,10 @@ body[data-layout-mode=dark] .mode-light {
 
 .bg-demo {
   background: url("../images/bg-contact.png") #000000;
+  width: 100%;
+}
+
+.bg-products {
+  background: url("../images/bg-products.png") #000000;
   width: 100%;
 }

@@ -18,11 +18,28 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::get('/pricing', function () {
-    return view('pricing');
+//Product Pages
+Route::get('/product', function () {
+    return view('products.product');
 });
 
-//Company Page
+Route::get('/product/workshop', function () {
+    return view('products.workshop');
+});
+
+Route::get('/product/inventory', function () {
+    return view('products.inventory');
+});
+
+Route::get('/product/maintenance', function () {
+    return view('products.maintenance');
+});
+
+Route::get('/product/pricing', function () {
+    return view('products.pricing');
+});
+
+//Company Pages
 Route::get('/company', function () {
     return view('company.company');
 });

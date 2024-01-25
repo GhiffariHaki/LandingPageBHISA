@@ -7,7 +7,7 @@
         <div class="row mt-100 mb-100">
             <div class="col">
                 <div class="title-heading mt-4 text-white">
-                    <h1 class="display-4 fw-bold mb-3">Inventory Management</h1>
+                    <h1 class="display-4 fw-bold mb-3">Workshop Management</h1>
                     <p class="">Organize your inventory efficiently with Armada Nusantara</p>
                     <a href="/requestdemo" class="btn btn-pills btn-arsa" style="background=#fca311">Request Demo</a>
                 </div>                                
@@ -18,20 +18,19 @@
 <!-- Hero End -->
 
 <!-- Feature Start -->
-<section class="section" style="background-color:#cccccc;">
+<section class="section">
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
                     <h4 class="title mb-4">What We Do ?</h4>
-                    <p class="text-dark mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
     </div>
 </section>
 
-<!-- 3 Section Start -->
 <section class="section overflow-hidden">
     <div class="container pb-5 mb-md-5 mt-5">
         <div class="row">
