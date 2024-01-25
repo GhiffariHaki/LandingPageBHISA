@@ -7,9 +7,10 @@
     <div class="container position-relative" style="z-index: 1;">
         <div class="row justify-content-center">
             <div class="col-lg-12 text-center mt-0 mt-md-5 pt-0 pt-md-5">
-                <div class="title-heading margin-top-100">
+                <div class="title-heading mt-5">
                     <h1 class="heading text-white title-dark mb-3">Drive down Expenses, Drive up Profits</h1>
                     <p class="mx-auto text-white-50">Revolutionize your vehicle management for maximum profitability.</p>
+                    <a href="/requestdemo" class="btn btn-pills btn-arsa" style="background=#fca311">Request Demo</a>
                 </div>
 
                 <div class="row justify-content-center">
@@ -40,7 +41,7 @@
                     <h1 class="title mb-3">We take good care of your vehicle.</h1>
                     <p class="para-desc text-muted">Embark on a journey of efficiency and profitability with Armada Nusantara – Where Your Fleet's Success Begins!</p>
                     <div>
-                                <a href="javascript:void(0)" class="btn btn-dark">Request Demo</a>
+                                <a href="/requestdemo" class="btn btn-arsa">Request Demo</a>
                                 <a href="javascript:void(0)" class="btn btn-outline-dark">Free Trial</a>
                     </div>
                 </div>
@@ -114,8 +115,8 @@
                     <li class="nav-item bg-light rounded-md">
                         <a class="nav-link rounded-md active" id="dashboard" data-bs-toggle="pill" href="#dash-board" role="tab" aria-controls="dash-board" aria-selected="false">
                             <div class="p-3 text-start">
-                                <h5 class="title">Fleet Management</h5>
-                                <p class="text-muted tab-para mb-0">Dummy text is text that is used in the publishing industry or by web designers.</p>
+                                <h5 class="title">Workshop Management</h5>
+                                <p class="text-muted tab-para mb-0">Management of schedules, repair costs, vehicle maintenance, inventory and mechanical services can all be done in one integrated system.</p>
                             </div>
                         </a><!--end nav link-->
                     </li><!--end nav item-->
@@ -123,8 +124,8 @@
                     <li class="nav-item bg-light rounded-md mt-4">
                         <a class="nav-link rounded-md" id="timeline" data-bs-toggle="pill" href="#time-line" role="tab" aria-controls="time-line" aria-selected="false">
                             <div class="p-3 text-start">
-                                <h5 class="title">Workshop Management</h5>
-                                <p class="text-muted tab-para mb-0">Dummy text is text that is used in the publishing industry or by web designers.</p>
+                                <h5 class="title">Inventory Management</h5>
+                                <p class="text-muted tab-para mb-0">Transform your Inventory Management process to Maximize Efficiency!</p>
                             </div>
                         </a><!--end nav link-->
                     </li><!--end nav item-->
@@ -132,17 +133,9 @@
                     <li class="nav-item bg-light rounded-md mt-4">
                         <a class="nav-link rounded-md" id="paymentmanagement" data-bs-toggle="pill" href="#payment-management" role="tab" aria-controls="payment-management" aria-selected="false">
                             <div class="p-3 text-start">
-                                <h5 class="title">Payment Management</h5>
-                                <p class="text-muted tab-para mb-0">Dummy text is text that is used in the publishing industry or by web designers.</p>
-                            </div>
-                        </a><!--end nav link-->
-                    </li><!--end nav item-->
-                            
-                    <li class="nav-item bg-light rounded-md mt-4">
-                        <a class="nav-link rounded-md" id="fileintegrate" data-bs-toggle="pill" href="#file-integrate" role="tab" aria-controls="file-integrate" aria-selected="false">
-                            <div class="p-3 text-start">
-                                <h5 class="title">File Integrate</h5>
-                                <p class="text-muted tab-para mb-0">Dummy text is text that is used in the publishing industry or by web designers.</p>
+                                <h5 class="title">Maintenance Management</h5>
+                                <p class="text-muted tab-para mb-0">
+                                Improve company operations by optimizing vehicle performance and ensuring safety through integrated maintenance management.</p>
                             </div>
                         </a><!--end nav link-->
                     </li><!--end nav item-->
@@ -160,11 +153,7 @@
                     </div><!--end teb pane-->
 
                     <div class="tab-pane fade" id="payment-management" role="tabpanel" aria-labelledby="paymentmanagement">
-                        <img src="assets/images/task/task.png" class="img-fluid mx-auto rounded-md shadow-lg d-block" alt="">
-                    </div><!--end teb pane-->
-
-                    <div class="tab-pane fade" id="file-integrate" role="tabpanel" aria-labelledby="fileintegrate">
-                        <img src="assets/images/task/file.png" class="img-fluid mx-auto rounded-md shadow-lg d-block" alt="">
+                        <img src="{{asset('images/home/Inventory.jpg')}}" class="img-fluid mx-auto rounded-md shadow-lg d-block" alt="">
                     </div><!--end teb pane-->
                 </div><!--end tab content-->
             </div><!--end col-->
@@ -175,7 +164,7 @@
 
 <!-- Key Features Start -->
 <section class="section">
-    <div class="container">
+    <div class="container mb-5">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
@@ -292,128 +281,5 @@
     </div><!--end container-->
 </section>
 <!-- Key Features End -->
-
-
-<!-- Review Start -->
-<section class="section">
-    <div class="container mt-100 mt-60">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <div class="section-title mb-4 pb-2">
-                    <h4 class="title mb-4">Whats Our Clients Said About <span style="color:#fca311;">Armada Nusantara</span></h4>
-                </div>
-            </div><!--end col-->
-        </div><!--end row-->
-
-        <div class="row justify-content-center">
-            <div class="col-lg-12 mt-4">
-                <div class="tiny-three-item">
-                    <div class="tiny-slide">
-                        <div class="d-flex client-testi m-1">
-                            <img src="{{asset('images/empty.png')}}" class="avatar avatar-small client-image rounded shadow" alt="">
-                            <div class="card flex-1 content p-3 shadow rounded position-relative">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                </ul>
-                                <p class="text-muted mt-2">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
-                                <h6 class="text-primary">- Thomas Israel <small class="text-muted">C.E.O</small></h6>
-                            </div>
-                        </div>
-                    </div>
-                            
-                    <div class="tiny-slide">
-                        <div class="d-flex client-testi m-1">
-                            <img src="{{asset('images/empty.png')}}" class="avatar avatar-small client-image rounded shadow" alt="">
-                            <div class="card flex-1 content p-3 shadow rounded position-relative">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star-half text-warning"></i></li>
-                                </ul>
-                                <p class="text-muted mt-2">" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others. "</p>
-                                <h6 class="text-primary">- Barbara McIntosh <small class="text-muted">M.D</small></h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tiny-slide">
-                        <div class="d-flex client-testi m-1">
-                            <img src="{{asset('images/empty.png')}}" class="avatar avatar-small client-image rounded shadow" alt="">
-                            <div class="card flex-1 content p-3 shadow rounded position-relative">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                </ul>
-                                <p class="text-muted mt-2">" The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "</p>
-                                <h6 class="text-primary">- Carl Oliver <small class="text-muted">P.A</small></h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tiny-slide">
-                        <div class="d-flex client-testi m-1">
-                            <img src="{{asset('images/empty.png')}}" class="avatar avatar-small client-image rounded shadow" alt="">
-                            <div class="card flex-1 content p-3 shadow rounded position-relative">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                </ul>
-                                <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero. "</p>
-                                <h6 class="text-primary">- Christa Smith <small class="text-muted">Manager</small></h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tiny-slide">
-                        <div class="d-flex client-testi m-1">
-                            <img src="{{asset('images/empty.png')}}" class="avatar avatar-small client-image rounded shadow" alt="">
-                            <div class="card flex-1 content p-3 shadow rounded position-relative">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                </ul>
-                                <p class="text-muted mt-2">" There is now an abundance of readable dummy texts. These are usually used when a text is required. "</p>
-                                <h6 class="text-primary">- Dean Tolle <small class="text-muted">Developer</small></h6>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tiny-slide">
-                        <div class="d-flex client-testi m-1">
-                            <img src="{{asset('images/empty.png')}}" class="avatar avatar-small client-image rounded shadow" alt="">
-                            <div class="card flex-1 content p-3 shadow rounded position-relative">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                    <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-                                </ul>
-                                <p class="text-muted mt-2">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "</p>
-                                <h6 class="text-primary">- Jill Webb <small class="text-muted">Designer</small></h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-        </div><!--end row-->
-    </div><!--end container-->
-</section>
-<!-- Price End -->
 
 @endsection

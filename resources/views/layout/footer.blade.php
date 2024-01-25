@@ -9,7 +9,7 @@
                             <a href="#" class="logo-footer">
                                 <img src="{{asset('images/logo/LogoArsa-Putih.png')}}" height="24" alt="">
                             </a>
-                            <p class="mt-4">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p class="mt-4">Embark on a journey of efficiency and profitability with Armada Nusantara <br> Where Your Fleet's Success Begins!</p>
                             <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                                 <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
                                 <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
