@@ -6278,6 +6278,10 @@ body[data-layout-mode=dark] .mode-light {
   --bs-btn-disabled-border-color: #fca311;
 }
 
+.text-arsa {
+  color: #fca311 !important;
+}
+
 .bg-demo {
   background: url("../images/bg-contact.png") #000000;
   width: 100%;
@@ -6286,4 +6290,8 @@ body[data-layout-mode=dark] .mode-light {
 .bg-products {
   background: url("../images/bg-products.png") #000000;
   width: 100%;
+}
+
+.img-hor {
+  transform: rotateY(180deg);
 }

@@ -7,7 +7,7 @@
                 <img src="{{asset('images/logo/LogoArsa-Hitam.png')}}" class="l-dark" height="24" alt="">
                 <img src="{{asset('images/logo/LogoArsa-Putih.png')}}" class="l-light" height="24" alt="">
             </span>
-            <img src="{{asset('images/logo/LogoArsa-Hitam.png')}}" height="24" class="logo-dark-mode" alt="">
+            <img src="{{asset('images/logo/LogoArsa-Putih.png')}}" height="24" class="logo-dark-mode" alt="">
         </a>
 
         <!--Login button Start-->
@@ -20,9 +20,9 @@
             </li>
             
             <li class="list-inline-item ps-1 mb-0">
-                <a href="/login">
-                    <div class="login-btn-primary"><span class="btn btn-pills btn-light">Try It Free</span></div>
-                    <div class="login-btn-light"><span class="btn btn-pills btn-light">Try It Free</span></div>
+                <a href="/requestdemo">
+                    <div class="login-btn-primary"><span class="btn btn-pills btn-light">Get Started</span></div>
+                    <div class="login-btn-light"><span class="btn btn-pills btn-light">Get Started</span></div>
                 </a>
             </li>
         </ul>
@@ -30,7 +30,7 @@
 
         <div id="navigation">
             <!-- Navigation Menu-->   
-            <ul class="navigation-menu nav-light justify-content-left">
+            <ul class="navigation-menu justify-content-left">
                 <li><a href="/">Home</a></li>
                 <li class="has-submenu parent-parent-menu-item">
                     <a href="/product">Products</a><span class="menu-arrow"></span>

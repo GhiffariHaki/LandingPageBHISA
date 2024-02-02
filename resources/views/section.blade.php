@@ -1,5 +1,31 @@
 <!-- Tempat penyimpanan section buat Landing Page -->
 
+
+<!-- Start Home -->
+<section class="bg-home d-flex align-items-center bg-animation-left bg-hero" style="height: auto;" id="home">
+    <div class="container position-relative" style="z-index: 1;">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 text-center mt-0 mt-md-5 pt-0 pt-md-5">
+                <div class="title-heading mt-5">
+                    <h1 class="heading text-white title-dark mb-3">Optimize Your Fleet with Leading Workshop & Inventory Management Software.</h1>
+                    <p class="mx-auto text-white-50">Simplify workshop operations, inventory tracking, and maintenance schedules all in one platform.</p>
+                    <a href="/requestdemo" class="btn btn-pills btn-arsa" style="background=#fca311">Get Started</a>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <div class="home-dashboard">
+                            <img src="{{asset('images/home/hero.png')}}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End Home -->
+
+
 <!-- Hero Start -->
 <section class="bg-half-170 pb-0 bg-primary d-table w-100" style="background: url({{asset('images/bg2.png')}}) center center;">
     <!-- Start Container-->    
