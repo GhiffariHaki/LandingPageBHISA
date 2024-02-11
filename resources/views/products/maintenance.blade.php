@@ -4,6 +4,13 @@
 <!-- Hero Start -->
 <section class="d-flex align-items-center bg-products">
     <div class="container mt-5 mb-5" style="z-index: 1;">
+        <nav aria-label="breadcrumb" class="d-inline-block mt-4">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="/product">Products</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Maintenance</li>
+            </ul>
+        </nav>
         <div class="row mt-100 mb-100">
             <div class="col">
                 <div class="title-heading mt-4 text-white">

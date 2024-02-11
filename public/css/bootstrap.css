@@ -5298,11 +5298,10 @@ textarea.form-control-lg {
   --bs-breadcrumb-padding-x: 0;
   --bs-breadcrumb-padding-y: 0;
   --bs-breadcrumb-margin-bottom: 1rem;
-  --bs-breadcrumb-bg: #ffffff;
   --bs-breadcrumb-border-radius: ;
-  --bs-breadcrumb-divider-color: #6c757d;
+  --bs-breadcrumb-divider-color: #fca311;
   --bs-breadcrumb-item-padding-x: 0.5rem;
-  --bs-breadcrumb-item-active-color: #6c757d;
+  --bs-breadcrumb-item-active-color: #fca311;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13952,14 +13951,16 @@ button:not(:disabled) {
   padding-left: 0;
   display: inline-block;
 }
+
+/*Ganti Breadcrumb color */
 .breadcrumb .breadcrumb-item a {
-  color: #212529;
+  color: #ffffff;
 }
 .breadcrumb .breadcrumb-item a:hover {
-  color: #2f55d4;
+  color: #fca311;
 }
 .breadcrumb .breadcrumb-item.active {
-  color: #2f55d4;
+  color: #fca311;
 }
 .breadcrumb .breadcrumb-item:before {
   content: "";
@@ -13967,7 +13968,7 @@ button:not(:disabled) {
 .breadcrumb .breadcrumb-item:after {
   content: "\f0142" !important;
   font-size: 14px;
-  color: #212529;
+  color: #fca311;
   font-family: "Material Design Icons";
   padding-left: 5px;
 }

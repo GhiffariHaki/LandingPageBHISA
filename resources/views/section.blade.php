@@ -334,3 +334,85 @@
     </div><!--end container-->
 </section>
 <!-- Review End -->
+
+<!-- Example 2 Start -->
+<section>
+    <div class="container mt-100 mb-100">
+        <div class="row">
+            <div class="col-md-4 mt-4 pt-2">
+                <ul class="nav nav-pills nav-justified flex-column rounded shadow p-3 mb-0 sticky-bar" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link rounded active" id="proposal" data-bs-toggle="pill" href="#developing" role="tab" aria-controls="developing" aria-selected="false">
+                            <div class="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                <h6 class="mb-0"><i class="uil uil-postcard me-2 h5"></i> Workshop Management</h6>
+                                <i class="uil uil-angle-right-b"></i>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                            
+                    <li class="nav-item mt-2">
+                        <a class="nav-link rounded" id="contract" data-bs-toggle="pill" href="#data-analise" role="tab" aria-controls="data-analise" aria-selected="false">
+                            <div class="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                <h6 class="mb-0"><i class="uil uil-notes me-2 h5"></i> Inventory Management</h6>
+                                <i class="uil uil-angle-right-b"></i>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                            
+                    <li class="nav-item mt-2">
+                        <a class="nav-link rounded" id="crm" data-bs-toggle="pill" href="#security" role="tab" aria-controls="security" aria-selected="false">
+                            <div class="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                <h6 class="mb-0"><i class="uil uil-folder-check me-2 h5"></i> Maintenance Management</h6>
+                                <i class="uil uil-angle-right-b"></i>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                </ul><!--end nav pills-->
+            </div><!--end col-->
+
+            <div class="col-md-8 col-12 mt-4 pt-2">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active p-4 rounded shadow" id="developing" role="tabpanel" aria-labelledby="proposal">
+                        <h4 class="mb-4">Workshop Management</h4>
+                        <p class="text-muted mb-0">Management of schedules, repair costs, vehicle maintenance, inventory and mechanical services can all be done in one integrated system.</p>
+
+                        <div class="mt-4">
+                            <a href="javascript:void(0)" class="text-primary h6">Explore Workshop Management <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+
+                        <div class="mt-4">
+                            <img src="{{asset('images/home/FleetManagement.png')}}" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end teb pane-->
+                            
+                    <div class="tab-pane fade p-4 rounded shadow" id="data-analise" role="tabpanel" aria-labelledby="contract">
+                        <h4 class="mb-4">Inventory Management</h4>
+                        <p class="text-muted mb-0">Transform your Inventory Management process to Maximize Efficiency!</p>
+
+                        <div class="mt-4">
+                            <a href="javascript:void(0)" class="text-primary h6">Explore Inventory Management <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+
+                        <div class="mt-4">
+                            <img src="{{asset('images/home/Inventory.jpg')}}" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end teb pane-->
+
+                    <div class="tab-pane fade p-4 rounded shadow" id="security" role="tabpanel" aria-labelledby="crm">
+                        <h4 class="mb-4">Maintenance Management</h4>
+                        <p class="text-muted mb-0">Improve company operations by optimizing vehicle performance and ensuring safety through integrated maintenance management.</p>
+
+                        <div class="mt-4">
+                            <a href="javascript:void(0)" class="text-primary h6">Explore Maintenance Management <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+
+                        <div class="mt-4">
+                            <img src="{{asset('images/home/WorkshopManagement.png')}}" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end teb pane-->
+                </div><!--end tab content-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End -->

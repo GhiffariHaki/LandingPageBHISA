@@ -60,7 +60,7 @@ p {
 }
 #topnav .logo .l-dark,
 #topnav .logo .logo-dark-mode {
-  display: none;
+  display: inline-block;
 }
 #topnav .logo .l-light,
 #topnav .logo .logo-light-mode {
@@ -6294,4 +6294,11 @@ body[data-layout-mode=dark] .mode-light {
 
 .img-hor {
   transform: rotateY(180deg);
+}
+
+.img-logo-responsive {
+  height: auto;
+  width: auto;
+  max-height: 65px;
+  max-width: 250px;
 }

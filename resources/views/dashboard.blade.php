@@ -1,34 +1,32 @@
 @extends('layout.master')
 @section('content')
 
-
-<!-- Start Home -->
-<section class="bg-home d-flex align-items-center bg-animation-left bg-hero" style="height: auto;" id="home">
-    <div class="container position-relative" style="z-index: 1;">
-        <div class="row justify-content-center">
-            <div class="col-lg-12 text-center mt-0 mt-md-5 pt-0 pt-md-5">
-                <div class="title-heading mt-5">
-                    <h1 class="heading text-white title-dark mb-3">Drive down Expenses, Drive up Profits</h1>
-                    <p class="mx-auto text-white-50">Revolutionize your vehicle management for maximum profitability.</p>
-                    <a href="/requestdemo" class="btn btn-pills btn-arsa" style="background=#fca311">Request Demo</a>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 text-center">
-                        <div class="home-dashboard">
-                            <img src="{{asset('images/home/hero.png')}}" alt="" class="img-fluid">
-                        </div>
+<!-- Hero Start -->
+<section class="bg-half-170 pb-0 bg-dark d-table w-100" style="background: url({{asset('images/home/hero-background.png')}}) center center;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-md-6">
+                <div class="title-heading mb-md-5 pb-md-5">
+                    <h5 class="text-arsa">Armada Nusantara</h5>
+                    <h4 class="heading text-white mb-3 title-dark"> Drive down Expenses, <br> Drive up Profits </h4>
+                    <p class="para-desc text-white-50">Simplify workshop operations, inventory tracking, and maintenance schedules all in one platform.</p>
+                    <div class="mt-4 pt-2">
+                        <a href="javascript:void(0)" class="btn btn-light">Get Started</a>
                     </div>
                 </div>
             </div><!--end col-->
+
+            <div class="col-lg-5 col-md-6">
+                <img src="{{asset('images/home/Mechanic.png')}}" class="" height="560px" alt="">
+            </div>
         </div><!--end row-->
-    </div><!--end container-->
+    </div> <!--end container-->
 </section><!--end section-->
-<!-- End Home -->
+<!-- Hero End -->
 
 <!-- Intro Start -->
 <section class="section">
-    <div class="container pb-5 mb-md-5 mt-100 mt-60">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="saas-feature-shape-right position-relative">
@@ -55,7 +53,7 @@
 
 <!-- Why Us Start -->
 <section class="section">
-    <div class="container mt-100 mt-60">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 order-2 order-lg-1 mt-4 pt-2 mt-lg-0 pt-lg-0">
                 <div class="section-title me-lg-4">
@@ -100,7 +98,7 @@
 
 <!-- Example Start -->
 <section class="section">
-    <div class="container mt-100 mt-60">
+    <div class="container mt-100">
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="section-title text-center mb-4 pb-2">

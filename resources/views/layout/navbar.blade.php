@@ -1,12 +1,9 @@
 <!-- Navbar Start -->
-<header id="topnav" class="defaultscroll sticky">
+<header id="topnav" class="defaultscroll sticky navbar-white-bg">
     <div class="container">
         <!-- Logo Container-->
-        <a class="logo" href="/">
-            <span class="logo-light-mode">
-                <img src="{{asset('images/logo/LogoArsa-Hitam.png')}}" class="l-dark" height="24" alt="">
-                <img src="{{asset('images/logo/LogoArsa-Putih.png')}}" class="l-light" height="24" alt="">
-            </span>
+        <a class="logo img-logo-responsive" href="/">
+            <img src="{{asset('images/logo/LogoArsa-Hitam.png')}}" height="24" class="logo-light-mode" alt="">
             <img src="{{asset('images/logo/LogoArsa-Putih.png')}}" height="24" class="logo-dark-mode" alt="">
         </a>
 
@@ -30,7 +27,7 @@
 
         <div id="navigation">
             <!-- Navigation Menu-->   
-            <ul class="navigation-menu justify-content-left">
+            <ul class="navigation-menu">
                 <li><a href="/">Home</a></li>
                 <li class="has-submenu parent-parent-menu-item">
                     <a href="/product">Products</a><span class="menu-arrow"></span>
