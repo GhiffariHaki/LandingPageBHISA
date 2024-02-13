@@ -2,27 +2,25 @@
 @section('content')
 
 <!-- Hero Start -->
-<section class="bg-half-170 d-table w-100" style="background-image: url('assets/images/hosting/pages.png');">
-    <div class="bg-overlay bg-gradient-primary opacity-9"></div>
-    <div class="container">
-        <div class="row mt-5 justify-content-center">
-            <div class="col-lg-12 text-center">
-                <div class="pages-heading title-heading">
-                    <h4 class="title text-white title-dark mb-4"> Company Story </h4>
-                    <p class="text-white-50 para-desc mx-auto mb-0">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
-                </div>
+<section class="d-flex align-items-center bg-company">
+    <div class="container mt-5 mb-5" style="z-index: 1;">
+        <nav aria-label="breadcrumb" class="d-inline-block mt-4">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Company</li>
+            </ul>
+        </nav>
+        <div class="row mt-100 mb-100">
+            <div class="col">
+                <div class="title-heading mt-4 text-white">
+                    <h1 class="display-4 fw-bold mb-3">Company Story</h1>
+                    <p class="">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                    <a href="/requestdemo" class="btn btn-pills btn-arsa" style="background=#fca311">Get Started</a>
+                </div>                                
             </div><!--end col-->
         </div><!--end row-->
-    </div> <!--end container-->
+    </div><!--end container--> 
 </section><!--end section-->
-
-<div class="position-relative">
-    <div class="shape overflow-hidden text-color-white">
-        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-        </svg>
-    </div>
-</div>
 <!-- Hero End -->
 
 <!-- Company Story Start -->

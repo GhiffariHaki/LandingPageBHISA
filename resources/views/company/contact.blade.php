@@ -2,15 +2,38 @@
 @section('content')
 
 <!-- Hero Start -->
-<section class="d-flex align-items-center bg-demo">
+<section class="d-flex align-items-center bg-company">
+    <div class="container mt-5 mb-5" style="z-index: 1;">
+        <nav aria-label="breadcrumb" class="d-inline-block mt-4">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="/company">Company</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ul>
+        </nav>
+        <div class="row mt-100 mb-100">
+            <div class="col">
+                <div class="title-heading mt-4 text-white">
+                    <h1 class="display-4 fw-bold mb-3">Contact Us</h1>
+                    <p class="">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                    <a href="/requestdemo" class="btn btn-pills btn-arsa" style="background=#fca311">Get Started</a>
+                </div>                                
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container--> 
+</section><!--end section-->
+<!-- Hero End -->
+
+<!-- Contact Start -->
+<section class="d-flex align-items-center">
     <<div class="container mt-5 mb-5" style="z-index: 1;">
-        <div class="row align-items-center">
+        <div class="row align-items-center mb-5">
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="title-heading mt-5 pt-4">
-                    <h1 class="heading text-white">Let's talk about your portfolio</h1>
-                    <p class="text-white">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <h1 class="heading text-arsa">Let's talk about your portfolio</h1>
+                    <p class="text-dark">Start working with <span class="text-arsa fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             
-                    <div class="d-flex contact-detail align-items-center mt-3 text-white">
+                    <div class="d-flex contact-detail align-items-center mt-3 text-arsa">
                         <div class="icon">
                             <i data-feather="mail" class="fea icon-m-md me-3"></i>
                         </div>
@@ -20,7 +43,7 @@
                         </div>
                     </div>
                             
-                    <div class="d-flex contact-detail align-items-center mt-3 text-white">
+                    <div class="d-flex contact-detail align-items-center mt-3 text-arsa">
                         <div class="icon">
                             <i data-feather="phone" class="fea icon-m-md me-3"></i>
                         </div>
@@ -30,7 +53,7 @@
                         </div>
                     </div>
                             
-                    <div class="d-flex contact-detail align-items-center mt-3 text-white">
+                    <div class="d-flex contact-detail align-items-center mt-3 text-arsa">
                         <div class="icon">
                             <i data-feather="map-pin" class="fea icon-m-md me-3"></i>
                         </div>

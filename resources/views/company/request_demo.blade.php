@@ -1,17 +1,32 @@
 @extends('layout.master')
 @section('content')
 
-<!-- Start Home -->
-<section class="d-flex align-items-center bg-demo">
+<!-- Hero Start -->
+<section class="d-flex align-items-center bg-company">
     <div class="container mt-5 mb-5" style="z-index: 1;">
-        <div class="row justify-content-center">
-            <div class="col-lg-12 text-center">
-                <div class="title-heading mt-5">
-                    <h1 class="heading text-white title-dark mb-3">Request Demo</h1>
-                </div>
-            </div>
-        </div>
+        <nav aria-label="breadcrumb" class="d-inline-block mt-4">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="/company">Company</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Request Demo</li>
+            </ul>
+        </nav>
+        <div class="row mt-100 mb-100">
+            <div class="col">
+                <div class="title-heading mt-4 text-white">
+                    <h1 class="display-4 fw-bold mb-3">Request Demo</h1>
+                    <p class="">We can solve your problem.</p>
+                </div>                                
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container--> 
+</section><!--end section-->
+<!-- Hero End -->
 
+
+<!-- Start Home -->
+<section class="d-flex align-items-center">
+    <div class="container mt-5 mb-5" style="z-index: 1;">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-5 col-md-6 pt-2 pt-sm-0 order-2 order-md-1">
                 <div class="card shadow rounded border-0">

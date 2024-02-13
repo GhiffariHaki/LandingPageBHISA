@@ -18,8 +18,8 @@
             
             <li class="list-inline-item ps-1 mb-0">
                 <a href="/requestdemo">
-                    <div class="login-btn-primary"><span class="btn btn-pills btn-light">Get Started</span></div>
-                    <div class="login-btn-light"><span class="btn btn-pills btn-light">Get Started</span></div>
+                    <div class="login-btn-primary"><span class="btn btn-pills btn-outline-dark">Get Started</span></div>
+                    <div class="login-btn-light"><span class="btn btn-pills btn-outline-dark">Get Started</span></div>
                 </a>
             </li>
         </ul>
@@ -39,9 +39,8 @@
                     </ul>
                 </li>
                 <li class="has-submenu parent-parent-menu-item">
-                    <a href="javascript:void(0)">Company</a><span class="menu-arrow"></span>
+                    <a href="/company">Company</a><span class="menu-arrow"></span>
                     <ul class="submenu">
-                        <li><a href="/company" class="sub-menu-item">About Us</a></li>
                         <li><a href="/contact" class="sub-menu-item">Contact</a></li>
                         <li><a href="/requestdemo" class="sub-menu-item">Request Demo</a></li>
                     </ul>
