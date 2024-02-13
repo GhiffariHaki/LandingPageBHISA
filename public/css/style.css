@@ -73,10 +73,10 @@ p {
   color: #ffffff;
 }
 #topnav .has-submenu.active .submenu li.active > a {
-  color: #2f55d4 !important;
+  color: #fca311 !important;
 }
 #topnav .has-submenu.active.active .menu-arrow {
-  border-color: #2f55d4;
+  border-color: #fca311;
 }
 #topnav #navigation.toggle-menu {
   position: relative;
@@ -116,10 +116,10 @@ p {
   top: 13px;
 }
 #topnav .has-submenu .submenu .has-submenu .submenu .has-submenu:hover .submenu-arrow {
-  border-color: #2f55d4;
+  border-color: #fca311;
 }
 #topnav .has-submenu .submenu .has-submenu:hover > .submenu-arrow {
-  border-color: #2f55d4;
+  border-color: #fca311;
 }
 #topnav .navbar-toggle {
   border: 0;
@@ -212,7 +212,7 @@ p {
           transform: rotate(45deg);
 }
 #topnav .navbar-toggle.open span:hover {
-  background-color: #2f55d4;
+  background-color: #fca311;
 }
 #topnav .navbar-toggle:hover, #topnav .navbar-toggle:focus,
 #topnav .navbar-toggle .navigation-menu > li > a:hover, #topnav .navbar-toggle:focus {
@@ -230,7 +230,7 @@ p {
   margin: 0 10px;
 }
 #topnav .navigation-menu > li:hover > a, #topnav .navigation-menu > li.active > a {
-  color: #2f55d4 !important;
+  color: #fca311 !important;
 }
 #topnav .navigation-menu > li > a {
   display: block;
@@ -246,7 +246,7 @@ p {
   padding-left: 15px;
 }
 #topnav .navigation-menu > li > a:hover, #topnav .navigation-menu > li > a:active {
-  color: #2f55d4;
+  color: #fca311;
 }
 #topnav .navigation-menu > li .submenu.megamenu li .megamenu-head {
   padding: 10px 20px;
@@ -291,10 +291,10 @@ p {
   border-color: #212529;
 }
 #topnav.scroll .navigation-menu > li:hover > a, #topnav.scroll .navigation-menu > li.active > a {
-  color: #2f55d4;
+  color: #fca311;
 }
 #topnav.scroll .navigation-menu > li:hover > .menu-arrow, #topnav.scroll .navigation-menu > li.active > .menu-arrow {
-  border-color: #2f55d4;
+  border-color: #fca311;
 }
 #topnav.defaultscroll.dark-menubar .logo {
   line-height: 70px;
@@ -314,16 +314,16 @@ p {
   color: #212529;
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li.active > a {
-  color: #2f55d4 !important;
+  color: #fca311 !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow, #topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow {
-  border-color: #2f55d4 !important;
+  border-color: #fca311 !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a, #topnav.nav-sticky .navigation-menu.nav-light > li.active > a {
-  color: #2f55d4 !important;
+  color: #fca311 !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light .has-submenu .menu-arrow {
-  border-color: #212529;
+  border-color: #fca311;
 }
 #topnav.nav-sticky.tagline-height {
   top: 0 !important;
@@ -414,7 +414,7 @@ p {
     transition: all 0.3s;
   }
   #topnav .navigation-menu > li .submenu li a:hover {
-    color: #2f55d4 !important;
+    color: #fca311 !important;
   }
   #topnav .navigation-menu > li .submenu li ul {
     list-style: none;
@@ -455,10 +455,10 @@ p {
     min-height: 62px;
   }
   #topnav .navigation-menu > li:hover > .menu-arrow {
-    border-color: #2f55d4;
+    border-color: #fca311;
   }
   #topnav .navigation-menu > li:hover > a, #topnav .navigation-menu > li.active > a {
-    color: #2f55d4 !important;
+    color: #fca311!important;
   }
   #topnav .navigation-menu > li.last-elements .submenu {
     right: auto;
@@ -612,7 +612,7 @@ p {
   #topnav .navigation-menu > li > a:hover,
 #topnav .navigation-menu > li .submenu li a:hover,
 #topnav .navigation-menu > li.has-submenu.open > a {
-    color: #2f55d4;
+    color: #fca311;
   }
   #topnav .menu-extras .menu-item {
     border-color: #8492a6;
@@ -637,7 +637,7 @@ p {
     top: 12px;
   }
   #topnav .has-submenu.active a {
-    color: #2f55d4;
+    color:#fca311;
   }
 
   #navigation {
@@ -2926,9 +2926,9 @@ p {
 .saas-feature-shape-right:after,
 .social-feature-left:after,
 .social-feature-right:after {
-  background: rgba(47, 85, 212, 0.1);
-  -webkit-box-shadow: 0 0 40px rgba(47, 85, 212, 0.1);
-          box-shadow: 0 0 40px rgba(47, 85, 212, 0.1);
+  background: rgba(252, 163, 17, 0.2);
+  -webkit-box-shadow: 0 0 40px rgba(252, 163, 17, 0.2);
+          box-shadow: 0 0 40px rgba(252, 163, 17, 0.2);
 }
 
 .app-feature-shape-right:after,

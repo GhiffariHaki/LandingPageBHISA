@@ -28,9 +28,9 @@
         <div id="navigation">
             <!-- Navigation Menu-->   
             <ul class="navigation-menu">
-                <li><a href="/">Home</a></li>
-                <li class="has-submenu parent-parent-menu-item">
-                    <a href="/product">Products</a><span class="menu-arrow"></span>
+                <li><a href="/" class="sub-menu-item">Home</a></li>
+                <li class="has-submenu parent-menu-item">
+                    <a href="/product" class="sub-menu-item">Products</a><span class="menu-arrow"></span>
                     <ul class="submenu">
                         <li><a href="/product/workshop" class="sub-menu-item">Workshop Management</a></li>
                         <li><a href="/product/inventory" class="sub-menu-item">Inventory Management</a></li>
@@ -38,8 +38,8 @@
                         <li><a href="/product/pricing" class="sub-menu-item">Pricing</a></li>
                     </ul>
                 </li>
-                <li class="has-submenu parent-parent-menu-item">
-                    <a href="/company">Company</a><span class="menu-arrow"></span>
+                <li class="has-submenu parent-menu-item">
+                    <a href="/company" class="sub-menu-item">Company</a><span class="menu-arrow"></span>
                     <ul class="submenu">
                         <li><a href="/contact" class="sub-menu-item">Contact</a></li>
                         <li><a href="/requestdemo" class="sub-menu-item">Request Demo</a></li>
