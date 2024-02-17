@@ -2,7 +2,9 @@
 @section('content')
 
 <!-- Hero Start -->
+
 <section class="bg-half-170 pb-0 bg-dark d-table w-100" style="background: url({{asset('images/home/hero-background.png')}}) center center;">
+
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 col-md-6">
@@ -18,7 +20,7 @@
 
             <div class="col-lg-5 col-md-6">
                 <img src="{{asset('images/home/Mechanic.png')}}" class="" height="560px" alt="">
-            </div>
+
         </div><!--end row-->
     </div> <!--end container-->
 </section><!--end section-->
