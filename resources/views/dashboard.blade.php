@@ -5,13 +5,13 @@
 
 <section class="bg-half-170 w-100 d-flex align-items-center" style="background: url({{asset('images/home/header-1.png')}}) center center;">
     <div class="container">
-        <div class="bg-overlay bg-overlay-dark opacity-4"></div>
+        <div class="bg-overlay bg-overlay-black"></div>
         <div class="row align-items-center">
             <div class="col-lg-7 col-md-6">
                 <div class="title-heading mb-md-5 pb-md-5">
-                    <h5 class="text-white" style="text-shadow: 2px 2px #ccc;">Armada Nusantara</h5>
-                    <h4 class="heading mb-3 title text-white" style="text-shadow: 2px 2px #ccc;"> Drive down Expenses, <br> Drive up Profits </h4>
-                    <p class="para-desc text-white" style="text-shadow: 1px 1px #ccc;">Simplify workshop operations, inventory tracking, and maintenance schedules all in one platform.</p>
+                    <h5 class="text-white" >Armada Nusantara</h5>
+                    <h4 class="heading mb-3 title text-white"> Drive down Expenses, <br> Drive up Profits </h4>
+                    <p class="para-desc text-white">Simplify workshop operations, inventory tracking, and maintenance schedules all in one platform.</p>
                     <div class="mt-4 pt-2">
                         <a href="javascript:void(0)" class="btn btn-light">Get Started</a>
                     </div>
