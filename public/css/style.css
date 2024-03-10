@@ -57,6 +57,9 @@ p {
 #topnav .logo {
   float: left;
   color: #212529 !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+      align-items: center !important;
 }
 #topnav .logo .l-dark,
 #topnav .logo .logo-dark-mode {
@@ -73,10 +76,10 @@ p {
   color: #ffffff;
 }
 #topnav .has-submenu.active .submenu li.active > a {
-  color: #fca311 !important;
+  color: #94BE1E !important;
 }
 #topnav .has-submenu.active.active .menu-arrow {
-  border-color: #fca311;
+  border-color: #94BE1E;
 }
 #topnav #navigation.toggle-menu {
   position: relative;
@@ -116,10 +119,10 @@ p {
   top: 13px;
 }
 #topnav .has-submenu .submenu .has-submenu .submenu .has-submenu:hover .submenu-arrow {
-  border-color: #fca311;
+  border-color: #94BE1E;
 }
 #topnav .has-submenu .submenu .has-submenu:hover > .submenu-arrow {
-  border-color: #fca311;
+  border-color: #94BE1E;
 }
 #topnav .navbar-toggle {
   border: 0;
@@ -212,7 +215,7 @@ p {
           transform: rotate(45deg);
 }
 #topnav .navbar-toggle.open span:hover {
-  background-color: #fca311;
+  background-color: #94BE1E;
 }
 #topnav .navbar-toggle:hover, #topnav .navbar-toggle:focus,
 #topnav .navbar-toggle .navigation-menu > li > a:hover, #topnav .navbar-toggle:focus {
@@ -230,7 +233,7 @@ p {
   margin: 0 10px;
 }
 #topnav .navigation-menu > li:hover > a, #topnav .navigation-menu > li.active > a {
-  color: #fca311 !important;
+  color: #94BE1E !important;
 }
 #topnav .navigation-menu > li > a {
   display: block;
@@ -246,7 +249,7 @@ p {
   padding-left: 15px;
 }
 #topnav .navigation-menu > li > a:hover, #topnav .navigation-menu > li > a:active {
-  color: #fca311;
+  color: #94BE1E;
 }
 #topnav .navigation-menu > li .submenu.megamenu li .megamenu-head {
   padding: 10px 20px;
@@ -291,10 +294,10 @@ p {
   border-color: #212529;
 }
 #topnav.scroll .navigation-menu > li:hover > a, #topnav.scroll .navigation-menu > li.active > a {
-  color: #fca311;
+  color: #94BE1E;
 }
 #topnav.scroll .navigation-menu > li:hover > .menu-arrow, #topnav.scroll .navigation-menu > li.active > .menu-arrow {
-  border-color: #fca311;
+  border-color: #94BE1E;
 }
 #topnav.defaultscroll.dark-menubar .logo {
   line-height: 70px;
@@ -314,16 +317,16 @@ p {
   color: #212529;
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li.active > a {
-  color: #fca311 !important;
+  color: #94BE1E !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow, #topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow {
-  border-color: #fca311 !important;
+  border-color: #94BE1E !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a, #topnav.nav-sticky .navigation-menu.nav-light > li.active > a {
-  color: #fca311 !important;
+  color: #94BE1E !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light .has-submenu .menu-arrow {
-  border-color: #fca311;
+  border-color: #94BE1E;
 }
 #topnav.nav-sticky.tagline-height {
   top: 0 !important;
@@ -340,7 +343,7 @@ p {
   display: inline-block;
 }
 #topnav.nav-sticky .logo .l-light {
-  display: none;
+  display: inline-block;
 }
 
 .logo {
@@ -414,7 +417,7 @@ p {
     transition: all 0.3s;
   }
   #topnav .navigation-menu > li .submenu li a:hover {
-    color: #fca311 !important;
+    color: #94BE1E !important;
   }
   #topnav .navigation-menu > li .submenu li ul {
     list-style: none;
@@ -454,11 +457,14 @@ p {
     padding-bottom: 25px;
     min-height: 62px;
   }
+
+  /*GANTI NAVBAR ACTIVE DISINI*/
   #topnav .navigation-menu > li:hover > .menu-arrow {
-    border-color: #fca311;
+    border-color: #94BE1E;
   }
+  
   #topnav .navigation-menu > li:hover > a, #topnav .navigation-menu > li.active > a {
-    color: #fca311!important;
+    color: #94BE1E !important;
   }
   #topnav .navigation-menu > li.last-elements .submenu {
     right: auto;
@@ -612,7 +618,7 @@ p {
   #topnav .navigation-menu > li > a:hover,
 #topnav .navigation-menu > li .submenu li a:hover,
 #topnav .navigation-menu > li.has-submenu.open > a {
-    color: #fca311;
+    color: #94BE1E;
   }
   #topnav .menu-extras .menu-item {
     border-color: #8492a6;
@@ -637,7 +643,7 @@ p {
     top: 12px;
   }
   #topnav .has-submenu.active a {
-    color:#fca311;
+    color:#94BE1E;
   }
 
   #navigation {
@@ -756,7 +762,7 @@ p {
 /*         Footer                */
 /*===============================*/
 .footer {
-  background: #111111;
+  background: #75A227;
   position: relative;
   color: #adb5bd;
 }
@@ -2926,9 +2932,9 @@ p {
 .saas-feature-shape-right:after,
 .social-feature-left:after,
 .social-feature-right:after {
-  background: rgba(252, 163, 17, 0.2);
-  -webkit-box-shadow: 0 0 40px rgba(252, 163, 17, 0.2);
-          box-shadow: 0 0 40px rgba(252, 163, 17, 0.2);
+  background: rgba(146, 188, 30, 0.3);
+  -webkit-box-shadow: 0 0 40px rgba(36, 159, 224, 0.25);
+          box-shadow: 0 0 40px rgba(36, 159, 224, 0.25);
 }
 
 .app-feature-shape-right:after,
@@ -3382,6 +3388,7 @@ p {
       align-self: center;
   position: relative;
   background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .bg-half-100 {
@@ -5559,8 +5566,16 @@ p {
   margin-top: 100px;
 }
 
+.mt-60 {
+  margin-top: 60px;
+}
+
 .mb-100 {
   margin-bottom: 100px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
 }
 
 .text-slider {
@@ -6261,6 +6276,7 @@ body[data-layout-mode=dark] .mode-light {
 2. Bg-Hero change elips & background
 3. 
 */
+
 .btn-arsa {
   --bs-btn-color: #ffffff;
   --bs-btn-bg: #fca311;
@@ -6278,17 +6294,21 @@ body[data-layout-mode=dark] .mode-light {
   --bs-btn-disabled-border-color: #fca311;
 }
 
-.text-arsa {
-  color: #fca311 !important;
+.text-arsaIjo {
+  color: #94BC1F !important;
+}
+
+.text-arsaBiru{
+  color: #2DA0E2 !important;
 }
 
 .bg-company {
-  background: url("../images/bg-contact.png") #000000;
+  background: url("../images/bg-contact.png") #94BC1F;
   width: 100%;
 }
 
 .bg-products {
-  background: url("../images/bg-products.png") #000000;
+  background: url("../images/bg-products.png") #2DA0E2;
   width: 100%;
 }
 
@@ -6301,4 +6321,62 @@ body[data-layout-mode=dark] .mode-light {
   width: auto;
   max-height: 65px;
   max-width: 250px;
+}
+
+.bg-arsa-section {
+  background-color: #FFEDCF !important;
+}
+
+.text-grad{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-grad{
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4  51%, #c2e59c  100%);
+}
+         
+.btn-grad1 {
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4  51%, #c2e59c  100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black; 
+  display: block;
+}
+
+.btn-grad1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+         
+.btn-grad2 {
+  background-image: linear-gradient(to right, #00C9FF 0%, #92FE9D  51%, #00C9FF  100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;            
+  display: block;
+}
+
+.btn-grad2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-grad1{
+  background: linear-gradient(to right, #c2e59c 0%, #64b3f4  51%, #c2e59c  100%);
+}
+
+.wa-btn {
+  position: fixed;
+  z-index: 99;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 15px;
 }

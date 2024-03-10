@@ -3,24 +3,20 @@
 
 <!-- Hero Start -->
 
-<section class="bg-half-170 pb-0 bg-dark d-table w-100" style="background: url({{asset('images/home/hero-background.png')}}) center center;">
-
+<section class="bg-half-170 w-100 d-flex align-items-center" style="background: url({{asset('images/home/header-1.png')}}) center center;">
     <div class="container">
+        <div class="bg-overlay bg-overlay-dark opacity-4"></div>
         <div class="row align-items-center">
             <div class="col-lg-7 col-md-6">
                 <div class="title-heading mb-md-5 pb-md-5">
-                    <h5 class="text-arsa">Armada Nusantara</h5>
-                    <h4 class="heading text-white mb-3 title-dark"> Drive down Expenses, <br> Drive up Profits </h4>
-                    <p class="para-desc text-white-50">Simplify workshop operations, inventory tracking, and maintenance schedules all in one platform.</p>
+                    <h5 class="text-white" style="text-shadow: 2px 2px #ccc;">Armada Nusantara</h5>
+                    <h4 class="heading mb-3 title text-white" style="text-shadow: 2px 2px #ccc;"> Drive down Expenses, <br> Drive up Profits </h4>
+                    <p class="para-desc text-white" style="text-shadow: 1px 1px #ccc;">Simplify workshop operations, inventory tracking, and maintenance schedules all in one platform.</p>
                     <div class="mt-4 pt-2">
                         <a href="javascript:void(0)" class="btn btn-light">Get Started</a>
                     </div>
                 </div>
             </div><!--end col-->
-
-            <div class="col-lg-5 col-md-6">
-                <img src="{{asset('images/home/Mechanic.png')}}" class="" height="560px" alt="">
-
         </div><!--end row-->
     </div> <!--end container-->
 </section><!--end section-->
@@ -28,21 +24,21 @@
 
 <!-- Intro Start -->
 <section class="section">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="saas-feature-shape-right position-relative">
-                    <img src="{{asset('images/home/Intro.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
+                    <img src="{{asset('images/home/arsa-1.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
                 </div>
             </div><!--end col-->
 
             <div class="col-lg-5 mt-4 pt-2 mt-lg-0 pt-lg-0">
                 <div class="section-title ms-lg-4">
-                    <h1 class="title mb-3">We take good care of your vehicle.</h1>
-                    <p class="para-desc text-muted">Embark on a journey of efficiency and profitability with Armada Nusantara – Where Your Fleet's Success Begins!</p>
+                    <h1 class="title mb-3 text-arsaIjo">We take good care of your vehicle.</h1>
+                    <p class="para-desc text-dark">Embark on a journey of efficiency and profitability with Armada Nusantara – Where Your Fleet's Success Begins!</p>
                     <div>
-                                <a href="/requestdemo" class="btn btn-arsa">Request Demo</a>
-                                <a href="javascript:void(0)" class="btn btn-outline-dark">Free Trial</a>
+                                <a href="/requestdemo" class="btn btn-grad1">Request Demo</a>
+                                <a href="javascript:void(0)" class="btn btn-grad2">Free Trial</a>
                     </div>
                 </div>
             </div>
@@ -55,29 +51,29 @@
 
 <!-- Why Us Start -->
 <section class="section">
-    <div class="container">
+    <div class="container mt-5 mb-5">
         <div class="row align-items-center">
             <div class="col-lg-5 order-2 order-lg-1 mt-4 pt-2 mt-lg-0 pt-lg-0">
                 <div class="section-title me-lg-4">
-                    <h1 class="title mb-3">Why Choose us ?</h1>
+                    <h1 class="title mb-3 text-arsaIjo">Why Choose us ?</h1>
 
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex align-items-center pt-4">
-                                <h2><i data-feather="user-check" class="fea icon-m-md text-dark"></i></h2>
+                                <h2><i data-feather="user-check" class="fea icon-m-md text-arsaBiru"></i></h2>
                                 <div class="ms-3">
-                                    <h5>User Friendly</h5>
-                                    <p class="text-muted mb-0">Armada Nusantara the perfect choice for users of all levels</p>
+                                    <h5 class="text-arsaBiru">User Friendly</h5>
+                                    <p class="text-dark mb-0">Armada Nusantara the perfect choice for users of all levels</p>
                                 </div>
                             </div>
                         </div><!--end col-->
     
                         <div class="col-12">
                             <div class="d-flex align-items-center pt-4">
-                                <h2><i data-feather="cpu" class="fea icon-m-md text-dark"></i></h2>
+                                <h2><i data-feather="cpu" class="fea icon-m-md text-arsaBiru"></i></h2>
                                 <div class="ms-3">
-                                    <h5>Easy to Integrate</h5>
-                                    <p class="text-muted mb-0">Armada Nusantara offers effortless integration with your API.</p>
+                                    <h5 class="text-arsaBiru">Easy to Integrate</h5>
+                                    <p class="text-dark mb-0">Armada Nusantara offers effortless integration with your API.</p>
                                 </div>
                             </div>
                         </div><!--end col-->
@@ -87,7 +83,7 @@
 
             <div class="col-lg-7 order-1 order-lg-2">
                 <div class="saas-feature-shape-left position-relative">
-                    <img src="{{asset('images/home/API_Black.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
+                    <img src="{{asset('images/home/why_us-1.png')}}" class="img-fluid mx-auto d-block rounded" alt="">
                 </div>
             </div>
             <!--end col-->
@@ -100,11 +96,12 @@
 
 <!-- Example Start -->
 <section class="section">
-    <div class="container mt-100">
+    <div class="bg-grad rounded shadow py-5 ms-3 me-3">
+    <div class="container mt-60 mb-60">
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="section-title text-center mb-4 pb-2">
-                    <h4 class="title mb-4">Discover what makes <span style="color:#fca311;">Armada Nusantara</span> great.</h4>
+                    <h4 class="title mb-4">Discover what makes <span class="text-white">Armada Nusantara</span> great.</h4>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
@@ -159,6 +156,7 @@
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
+    </div>
 </section>
 <!-- End Example -->
 
@@ -168,7 +166,7 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
-                    <h4 class="title mb-4">Key Features</h4>
+                    <h4 class="title mb-4 text-arsaIjo">Key Features</h4>
                 </div>
             </div>
             <!--end col-->
@@ -180,7 +178,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="sliders" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="sliders" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Planning</h4>
@@ -191,7 +189,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="calendar" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="calendar" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Scheduling</h4>
@@ -202,7 +200,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="briefcase" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="briefcase" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Asset Management</h4>
@@ -213,7 +211,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="list" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="list" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Work Order Management</h4>
@@ -225,7 +223,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="package" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="package" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Inventory Management</h4>
@@ -236,7 +234,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="pie-chart" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="pie-chart" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Analysis</h4>
@@ -248,7 +246,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="thumbs-up" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="thumbs-up" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Reporting</h4>
@@ -259,7 +257,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="clipboard" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="clipboard" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Agreement</h4>
@@ -270,7 +268,7 @@
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i data-feather="dollar-sign" class="fea icon-ex-md text-dark"></i>
+                        <i data-feather="dollar-sign" class="fea icon-ex-md text-arsaBiru"></i>
                     </div>
                     <div class="flex-1">
                         <h4 class="title mb-0">Point of Sales</h4>

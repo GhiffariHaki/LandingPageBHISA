@@ -2,24 +2,39 @@
 <header id="topnav" class="defaultscroll sticky navbar-white-bg">
     <div class="container">
         <!-- Logo Container-->
-        <a class="logo img-logo-responsive" href="/">
-            <img src="{{asset('images/logo/LogoArsa-Hitam.png')}}" height="24" class="logo-light-mode" alt="">
-            <img src="{{asset('images/logo/LogoArsa-Putih.png')}}" height="24" class="logo-dark-mode" alt="">
+        <a class="logo align-item-center" href="/">
+            <img src="{{asset('images/logo/LogoGradien.png')}}" height="48" class="logo-light-mode" alt="">
         </a>
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+            <div class="menu-item">
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+                <!-- End mobile menu toggle-->
+            </div>
+        </div>
+
 
         <!--Login button Start-->
         <ul class="buy-button list-inline mb-0">
             <li class="list-inline-item mb-0">
                 <a href="/login" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <div class="login-btn-primary"><span class="btn btn-pills btn-dark">Sign In</span></div>
-                    <div class="login-btn-light"><span class="btn btn-pills btn-dark">Sign In</span></div>
+                    <div class="login-btn-primary"><span class="btn btn-pills btn-grad1">Sign In</span></div>
+                    <div class="login-btn-light"><span class="btn btn-pills btn-grad1">Sign In</span></div>
                 </a>
             </li>
             
             <li class="list-inline-item ps-1 mb-0">
                 <a href="/requestdemo">
-                    <div class="login-btn-primary"><span class="btn btn-pills btn-outline-dark">Get Started</span></div>
-                    <div class="login-btn-light"><span class="btn btn-pills btn-outline-dark">Get Started</span></div>
+                    <div class="login-btn-primary"><span class="btn btn-pills btn-grad2">Get Started</span></div>
+                    <div class="login-btn-light"><span class="btn btn-pills btn-grad2">Get Started</span></div>
                 </a>
             </li>
         </ul>

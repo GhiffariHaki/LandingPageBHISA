@@ -105,6 +105,15 @@
 <!-- Content 1 End -->
 
 
+<!-- Examples Start -->
+<section class="section">
+    <div class="container">
+        <div class="home-dashboard">
+            <img src="{{asset('images/Mockup-Workshop.png')}}" alt="" class="img-fluid mover">
+        </div>
+    </div><!--end container-->
+</section>
+<!-- Examples End -->
 
 <!-- Content 2 Start -->
 <section class="section">
