@@ -113,7 +113,7 @@
                         <a class="nav-link rounded-md active" id="dashboard" data-bs-toggle="pill" href="#dash-board" role="tab" aria-controls="dash-board" aria-selected="false">
                             <div class="p-3 text-start">
                                 <h5 class="title">Workshop Management</h5>
-                                <p class="text-muted tab-para mb-0">Management of schedules, repair costs, vehicle maintenance, inventory and mechanical services can all be done in one integrated system.</p>
+                                <p class="tab-para mb-0">Management of schedules, repair costs, vehicle maintenance, inventory and mechanical services can all be done in one integrated system.</p>
                             </div>
                         </a><!--end nav link-->
                     </li><!--end nav item-->
@@ -122,7 +122,7 @@
                         <a class="nav-link rounded-md" id="timeline" data-bs-toggle="pill" href="#time-line" role="tab" aria-controls="time-line" aria-selected="false">
                             <div class="p-3 text-start">
                                 <h5 class="title">Inventory Management</h5>
-                                <p class="text-muted tab-para mb-0">Transform your Inventory Management process to Maximize Efficiency!</p>
+                                <p class="tab-para mb-0">Transform your Inventory Management process to Maximize Efficiency!</p>
                             </div>
                         </a><!--end nav link-->
                     </li><!--end nav item-->
@@ -131,7 +131,7 @@
                         <a class="nav-link rounded-md" id="paymentmanagement" data-bs-toggle="pill" href="#payment-management" role="tab" aria-controls="payment-management" aria-selected="false">
                             <div class="p-3 text-start">
                                 <h5 class="title">Maintenance Management</h5>
-                                <p class="text-muted tab-para mb-0">
+                                <p class="tab-para mb-0">
                                 Improve company operations by optimizing vehicle performance and ensuring safety through integrated maintenance management.</p>
                             </div>
                         </a><!--end nav link-->
